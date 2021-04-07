@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "LoraRegular";
+  src: url("../fonts/LoraRegular/LoraRegular.eot");
+  src: url("../fonts/LoraRegular/LoraRegular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/LoraRegular/LoraRegular.woff") format("woff"),
+    url("../fonts/LoraRegular/LoraRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "montserrat";
+  src: url("../fonts/montserrat-v15-cyrillic-regular.woff") format("woff");
+  src: url("../fonts/montserrat-v15-cyrillic-regular.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+}

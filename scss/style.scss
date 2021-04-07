@@ -1,0 +1,53 @@
+$btn-color: #d3995f;
+$dark-color: #2a2a2a;
+$grey-color: #686868;
+
+*,
+*::after,
+*::before {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+a {
+   text-decoration: none;
+}
+
+ul {
+   list-style: none;
+   padding: 0px;
+   margin: 0px;
+}
+
+a {
+   color: inherit;
+}
+
+img {
+   max-width: 100%;
+}
+
+body {
+   width: 100%;
+   font-family: "Lora";
+   font-size: 15px;
+   line-height: 30px;
+   background-color: #fff;
+   color: $grey-color;
+}
+
+.container {
+   position: relative;
+   margin: 0 auto;
+   max-width: 1170px;
+   padding: 24px 24px;
+}
+
+@import "./utils/fonts";
+@import "./blocks/title";
+@import "./blocks/story-behind";
+@import "./blocks/collection";
+@import "./blocks/descr";
+@import "./blocks/btn";
+@import "./utils/media";
