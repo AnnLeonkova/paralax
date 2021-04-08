@@ -89,7 +89,7 @@ body {
 
 .story-behind__left {
   width: 50%;
-  background: url(/img/story-behind__left.jpg);
+  background: url(../img/story-behind__left.jpg);
   background-size: cover;
 }
 
